@@ -9,4 +9,12 @@ public class MainController {
     public String main() {
         return "hello";
     }
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
+    @GetMapping("/reg")
+    public String registration() {
+        return "reg";
+    }
 }
